@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 
 export class AppComponent  {
   name = "Star student";
+  family:string[]=["Loges","Thanu","Sathu","Vithu"];
 }

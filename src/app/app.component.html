@@ -1,4 +1,6 @@
 <div class="container">
   <div class="box">Hello, {{ name }} !</div>
 </div>
-<div class="familyMem" *ngFor='let member of family'>{{member}}</div>
+<div class="familyMem" *ngFor="let member of family; let i = index">
+  {{ i + 1 }} - {{ member }}
+</div>
